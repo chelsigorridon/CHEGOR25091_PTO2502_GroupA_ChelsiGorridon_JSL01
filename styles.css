@@ -6,8 +6,9 @@
 
   body{
     background-color:#F4F7FD;
-    width: 375px;
-    height: 667px;
+    width: 1440px;
+    height: 1024px;
+    font-family: Plus jakarta sans,sans-serif ;
   }  
 
   .logo-img{
@@ -15,9 +16,12 @@
     height: 64px;
   }
 
-
-
-
-  @media screen and (min-width: 1440px){
-    
+  h4{
+    color: #828FA3;
+    font-size: 12px;
   }
+
+
+
+
+
