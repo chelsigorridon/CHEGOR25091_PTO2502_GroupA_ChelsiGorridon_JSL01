@@ -16,9 +16,15 @@
     height: 64px;
   }
 
+  h2{
+    color: #000112;
+    font-size: 24px;
+  }
+
   h4{
     color: #828FA3;
     font-size: 12px;
+    letter-spacing: 2.4px;
   }
 
 
