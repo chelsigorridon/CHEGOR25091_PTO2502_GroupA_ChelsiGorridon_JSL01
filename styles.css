@@ -9,6 +9,7 @@
     width: 1440px;
     height: 1024px;
     font-family: Plus jakarta sans,sans-serif ;
+    font-weight: 700;
   }  
 
   .logo-img{
@@ -25,6 +26,17 @@
     color: #828FA3;
     font-size: 12px;
     letter-spacing: 2.4px;
+  }
+
+  .card{
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 15px;
+    box-shadow: #364E7E1A;
+    margin-bottom: 10px;
+   
   }
 
 
