@@ -5,6 +5,7 @@
     <title>Kanban</title>
      <link rel="stylesheet" href="styles.css">
      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   </head>
 
@@ -13,17 +14,17 @@
    
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
     <nav class="nav-bar">
-      <div>
-        <img src="assets/logo-light.svg" alt="logo" class="kanban-logo">
-        <h4>ALL BOARDS (1)</h4>
+      <img src="assets/logo-light.svg" alt="logo" class="kanban-logo">
+      <div class="board-links">
+        <h4 class="all-boards-heading">ALL BOARDS (1)</h4>
         <button class="launch-career-button">Launch Career</button>
       </div>
     </nav>
 
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
-    <div class="heading">
+    <div>
       <header>
-        <div>
+        <div class="board-title">
           <h2>Launch Career</h2>
         </div>
       </header>
@@ -35,39 +36,39 @@
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
             <div class="status">
-              <span></span>
-              <h4>TODO (4)</h4>
+              <span><i class="fa fa-circle circle-icon-1" aria-hidden="true"></i> </span>
+              <h4>TODO (4)</h4> 
             </div>
             <!-- Tasks container for TODO -->
             <div>
               <div class="task-card">Launch Epic Career 🚀</div>
-              <div class="task-card">Learn Data Structures and Algorithms 📚</div>
-              <div class="task-card">Launch Epic Career 🚀</div>
-              <div class="task-card">Learn Data Structures and Algorithms 📚</div>
+              <div class="task-card">Conquer React ⚛️ </div>
+              <div class="task-card">Understand Databases ⚙️ </div>
+              <div class="task-card">Crush Frameworks 🖼️ </div>
             </div>
           </div>
           <!-- DOING Column -->
           <div>
             <div class="status">
-              <span></span>
+              <span><i class="fa fa-circle circle-icon-2" aria-hidden="true"></i></span>
               <h4>DOING (2)</h4>
             </div>
             <!-- Tasks container for DOING -->
             <div>
               <div class="task-card">Master JavaScript 💛</div>
-              <div class="task-card">Keep on Going 🏆</div>
+              <div class="task-card"> Never Give Up 🏆</div>
             </div>
           </div>
           <!-- DONE Column -->
           <div>
             <div class="status">
-              <span></span>
+              <span><i class="fa fa-circle circle-icon-3" aria-hidden="true"></i></span>
               <h4>DONE (2)</h4>
             </div>
             <!-- Tasks container for DONE -->
             <div>
-              <div class="task-card">Contribute to Open Source Projects 🌐</div>
-              <div class="task-card">Build Portfolio Projects 🛠️</div>
+              <div class="task-card">Explore ES6 Features 🚀</div>
+              <div class="task-card">Have fun 🥳 </div>
             </div>
           </div>
         </main>
