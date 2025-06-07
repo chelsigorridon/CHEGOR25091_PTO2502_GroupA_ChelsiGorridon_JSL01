@@ -33,7 +33,7 @@
     /* This section styles the body */
 
   body{
-    background-color:#F4F7FD;
+    background-color:var(--light-bg);
     max-width: 1440px;
     height: 1024px;
     margin: auto;
@@ -65,7 +65,7 @@
   .nav-bar{
     width: 300px;
     height: 1024px;
-    background-color: #FFFFFF; 
+    background-color: var(--white); 
   }
 
   /* This section styles the links in the board*/
@@ -82,8 +82,8 @@
     width: 276px;
     height: 48px;
     border-radius: 0 100px 100px 0 ;
-    background-color: #635FC7;
-    color: #FFFFFF;
+    background-color: var(--main-purple);
+    color: var(--white);
     font-weight: 700;
     font-size: 15px;
     border: none;
@@ -94,8 +94,8 @@
   /* The button is styled to create a hover effect*/
 
   .launch-career-button:hover{
-    background-color: #A8A4FF;
-    color: #635FC7;
+    background-color: var(--main-purple-hover);
+    color: var(--main-purple);
   }
 
   /* === Headings, typography & styling === */
@@ -103,7 +103,7 @@
    /* This styles the font of the title */
 
 h2{
-    color: #000112;
+    color: var(--black);
     font-size: 24px;
     margin-left: 24px;
   }
@@ -111,7 +111,7 @@ h2{
    /* This styles the div of the title */
 
   .board-title{
-    background-color: #FFFFFF;
+    background-color: var(--white);
     width: 1440px;
     height: 96px;
     padding: 16px 8px 16px 8px;
@@ -125,7 +125,7 @@ h2{
 
   .status{
     display: flex;
-    color: #828FA3;
+    color: var(--medium-grey);
     font-size: 12px;
     letter-spacing: 2.4px;
     margin-bottom: 30px;
@@ -135,19 +135,19 @@ h2{
    /* This adds colour to the icons added to HTML */
 
   .circle-icon-1{
-    color: #49C4E5;
+    color: var(--circle-1);
     margin-right: 10px;
     margin-top: 3px;
   }
 
    .circle-icon-2{
-    color: #8471F2;
+    color: var(--circle-2);
     margin-right: 10px;
     margin-top: 3px;
   }
 
    .circle-icon-3{
-    color: #67E2AE;
+    color: var(--circle-3);
     margin-right: 10px;
     margin-top: 3px;
   }
@@ -155,7 +155,7 @@ h2{
   /* A seperate class created for styling one of the h4 headings as its in the nagivation bar */
 
   .all-boards-heading{
-    color: #828FA3;
+    color: var(--medium-grey);
     font-size: 12px;
     letter-spacing: 2.4px;
     margin-left: 32px;
@@ -179,12 +179,12 @@ h2{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     width: 280px;
     height: 60px;
     border-radius: 8px;
     font-size: 15px;
-    box-shadow:  0 4px 6px rgba(54, 78, 126, 0.1);
+    box-shadow: 0 4px 6px rgba(54, 78, 126, 0.1);
     margin-bottom: 15px;
     padding: 8px 16px 8px 16px;
   }
@@ -193,7 +193,9 @@ h2{
 
    /* === Media Queries === */
 
-  
+   @media screen (min-width: 375px) and (max-width: 667px) {
+    
+   }
 
   
     
