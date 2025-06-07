@@ -15,13 +15,15 @@
     height: 1024px;
     font-family: Plus jakarta sans,sans-serif ;
     font-weight: 700;
+    cursor: pointer;
   }  
    
    /* This is the container to create a grid layout */
+
   .main-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
   }
 
     /* This section styles the kanban logo */
@@ -30,7 +32,8 @@
     width: 152.53px;
     height: 25.22px;
     object-fit: cover;
-    margin: 20px 30px;
+    margin-top: 32.78px;
+    margin-left: 34px;
   }
    
   /* This section styles the navigation bar*/
@@ -38,7 +41,13 @@
   .nav-bar{
     width: 300px;
     height: 1024px;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
+  }
+
+  .board-links{
+    width: 276px;
+    height: 880px;
+    margin-top: 60px;
   }
 
   /* This styles the launch career button*/
@@ -52,10 +61,11 @@
     font-weight: 700;
     font-size: 15px;
     border: none;
+    margin-top: 34px;
     transition: background-color 0.2s , transform 0.2s ease-in-out;
   }
 
-  /* This makes the button active*/
+  /* This makes the button active and creates a hover effect*/
 
   .launch-career-button:hover{
     background-color: #A8A4FF;
@@ -64,35 +74,57 @@
 
    /* This is a comment */
 
-  h2{
+h2{
     color: #000112;
     font-size: 24px;
+    margin-left: 24px;
+  }
+
+  .heading{
     background-color: #FFFFFF;
     width: 1440px;
-    height: 92px;
+    height: 96px;
+    padding: 16px 8px 16px 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 12px;
+  }
+  
+   /* This is a comment */
+
+  .status{
+    color: #828FA3;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+  }
+
+  .all-boards-heading{
+    color: #828FA3;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    margin-left: 32px;
   }
 
    /* This is a comment */
 
-  h4{
-    color: #828FA3;
-    font-size: 12px;
-    letter-spacing: 2.4px;
-  }
-
-  .status{
-    margin: 20px 20px;
-  }
-
   .task-column-section{
     display: flex;
     gap: 17px;
+    width: 1192px;
+    height: 853px;
+    margin-left: 30px;
   }
 
    /* This is a comment */
 
   .task-card{
     display: flex;
+    justify-content:flex-start;
+    align-items: center;
     background-color: #FFFFFF;
     width: 280px;
     height: 60px;
@@ -100,6 +132,8 @@
     font-size: 15px;
     box-shadow: #364E7E1A;
     margin-bottom: 15px;
+    padding: 8px 16px 8px 16px;
+
   }
 
    
