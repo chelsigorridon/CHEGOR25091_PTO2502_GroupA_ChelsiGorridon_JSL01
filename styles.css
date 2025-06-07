@@ -1,4 +1,27 @@
+       
+    /* This is resuable style utilities */ 
 
+    :root {
+      --main-purple:#635FC7;
+      --main-purple-hover:#A8A4FF;
+      --black:#000112;
+      --dark-bg:#20212C;
+      --dark-grey:#2B2C37;
+      --lines-dark:#3E3F4E;
+      --medium-grey:#828FA3;
+      --lines-light:#E4EBFA;
+      --light-bg:#F4F7FD;
+      --white:#FFFFFF;
+      --red:#EA5555;
+      --red-hover:#FF9898;
+      --circle-1: #49C4E5 ;
+      --circle-2: #8471F2;
+      --circle-3: #67E2AE;
+
+    }
+
+    /* === Layout Components === */
+    
     /* This is a CSS Reset */
     
 *{
@@ -11,9 +34,10 @@
 
   body{
     background-color:#F4F7FD;
-    width: 1440px;
+    max-width: 1440px;
     height: 1024px;
-    font-family: Plus jakarta sans,sans-serif ;
+    margin: auto;
+    font-family: 'Plus jakarta sans',sans-serif ;
     font-weight: 700;
     cursor: pointer;
   }  
@@ -67,12 +91,14 @@
     transition: background-color 0.2s , transform 0.2s ease-in-out;
   }
 
-  /* The buttong is styled to create a hover effect*/
+  /* The button is styled to create a hover effect*/
 
   .launch-career-button:hover{
     background-color: #A8A4FF;
     color: #635FC7;
   }
+
+  /* === Headings, typography & styling === */
 
    /* This styles the font of the title */
 
@@ -135,6 +161,8 @@ h2{
     margin-left: 32px;
   }
 
+  /* === Flexbox & styling === */
+
    /* Styles the task columns by using flexbox to align each group */
 
   .task-column-section{
@@ -156,12 +184,14 @@ h2{
     height: 60px;
     border-radius: 8px;
     font-size: 15px;
-    box-shadow: #364E7E1A;
+    box-shadow:  0 4px 6px rgba(54, 78, 126, 0.1);
     margin-bottom: 15px;
     padding: 8px 16px 8px 16px;
   }
 
-   
+   /* === End of Desktop version === */
+
+   /* === Media Queries === */
 
   
 
