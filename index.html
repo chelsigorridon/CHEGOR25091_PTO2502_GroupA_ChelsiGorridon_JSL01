@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <container>
+    <main class="main-container">
    
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
     <nav class="nav-bar">
@@ -22,18 +22,18 @@
 
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div>
-      <header class="heading">
-        <div>
+      <header>
+        <div class="heading">
           <h2>Launch Career</h2>
         </div>
       </header>
        
 
       <div>
-        <main class="main-section">
+        <main class="column-section">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
-            <div>
+            <div class="status">
               <span></span>
               <h4>TODO (4)</h4>
             </div>
@@ -45,7 +45,7 @@
           </div>
           <!-- DOING Column -->
           <div>
-            <div>
+            <div class="status">
               <span></span>
               <h4>DOING (2)</h4>
             </div>
@@ -57,7 +57,7 @@
           </div>
           <!-- DONE Column -->
           <div>
-            <div>
+            <div class="status">
               <span></span>
               <h4>DONE (2)</h4>
             </div>
@@ -70,6 +70,6 @@
         </main>
       </div>
     </div>
-    </container>
+    </main>
   </body>
 </html>
