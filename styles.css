@@ -18,9 +18,10 @@
   }  
    
    /* This is the container to create a grid layout */
-  container{
+  .main-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+    gap: 15px;
   }
 
     /* This section styles the kanban logo */
@@ -53,7 +54,6 @@
     background-color: #FFFFFF;
     width: 1440px;
     height: 92px;
-    
   }
 
    /* This is a comment */
@@ -62,12 +62,12 @@
     color: #828FA3;
     font-size: 12px;
     letter-spacing: 2.4px;
-    
   }
 
    /* This is a comment */
 
   .task-card{
+    display: flex;
     background-color: #FFFFFF;
     width: 280px;
     height: 60px;
@@ -75,16 +75,21 @@
     font-size: 15px;
     box-shadow: #364E7E1A;
     margin-bottom: 15px;
-   
   }
 
-  .main-section{
+   .column-section{
+    display: flex;
+    gap: 17px;
+  }
+
+  .status{
+    margin: 20px 20px;
+  }
+
+  
     
-  }
-
-  .heading{
-
-  }
+    
+  
 
 
 
