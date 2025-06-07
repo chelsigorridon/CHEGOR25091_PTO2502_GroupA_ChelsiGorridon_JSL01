@@ -43,7 +43,7 @@
 
   /* This styles the launch career button*/
 
-  button{
+  .launch-career-button{
     width: 276px;
     height: 48px;
     border-radius: 0 100px 100px 0 ;
@@ -52,12 +52,14 @@
     font-weight: 700;
     font-size: 15px;
     border: none;
+    transition: background-color 0.2s , transform 0.2s ease-in-out;
   }
 
   /* This makes the button active*/
 
-  .launch-career-button{
-    
+  .launch-career-button:hover{
+    background-color: #A8A4FF;
+    color: #635FC7;
   }
 
    /* This is a comment */
