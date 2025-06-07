@@ -1,8 +1,13 @@
+
+    /* This is a CSS Reset */
+    
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
+
+    /* This section styles the body */
 
   body{
     background-color:#F4F7FD;
@@ -11,32 +16,74 @@
     font-family: Plus jakarta sans,sans-serif ;
     font-weight: 700;
   }  
-
-  .logo-img{
-    width: 375px;
-    height: 64px;
+   
+   /* This is the container to create a grid layout */
+  container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
+
+    /* This section styles the kanban logo */
+
+  .kanban-logo{
+    width: 152.53px;
+    height: 25.22px;
+    object-fit: cover;
+    margin: 20px 30px;
+  }
+
+  .nav-bar{
+    width: 300px;
+    height: 1024px;
+    background-color: #FFFFFF;
+  }
+
+  button{
+    width: 276px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #635FC7;
+  }
+
+   /* This is a comment */
 
   h2{
     color: #000112;
     font-size: 24px;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 92px;
+    
   }
+
+   /* This is a comment */
 
   h4{
     color: #828FA3;
     font-size: 12px;
     letter-spacing: 2.4px;
+    
   }
 
-  .card{
+   /* This is a comment */
+
+  .task-card{
     background-color: #FFFFFF;
     width: 280px;
     height: 60px;
     border-radius: 8px;
     font-size: 15px;
     box-shadow: #364E7E1A;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
    
+  }
+
+  .main-section{
+    
+  }
+
+  .heading{
+
   }
 
 
