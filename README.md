@@ -4,7 +4,7 @@
 
 ## What is Kanban?:
 
-- It's an applications that makes keeping track of all the tasks or goals easier and interactive. 
+- It's an applications that makes keeping track of all your tasks or goals easier and interactive. 
   
 
 
@@ -13,9 +13,9 @@
 ## Key Features:
 
 - Create diffrent boards and name each one with the main focus of your tasks/goals.
-- Break down your tasks/goals by adding a title, description and a status.
-- The status options are to-do, doing & done.
-- This will seperate each task/goal and place it under its own column. 
+- Track your tasks/goals.
+- Create your own title & description.
+- Change the status of your tasks/goals to track them better. 
 
 ---
 ## Technology and Coding Languages used:
