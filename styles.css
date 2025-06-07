@@ -44,6 +44,8 @@
     background-color: #FFFFFF; 
   }
 
+  /* This section styles the links in the board*/
+
   .board-links{
     width: 276px;
     height: 880px;
@@ -65,14 +67,14 @@
     transition: background-color 0.2s , transform 0.2s ease-in-out;
   }
 
-  /* This makes the button active and creates a hover effect*/
+  /* The buttong is styled to create a hover effect*/
 
   .launch-career-button:hover{
     background-color: #A8A4FF;
     color: #635FC7;
   }
 
-   /* This is a comment */
+   /* This styles the font of the title */
 
 h2{
     color: #000112;
@@ -80,7 +82,7 @@ h2{
     margin-left: 24px;
   }
 
-   /* This is a comment */
+   /* This styles the div of the title */
 
   .board-title{
     background-color: #FFFFFF;
@@ -93,11 +95,10 @@ h2{
     margin-left: 12px;
   }
   
-   /* This is a comment */
+   /* This styles the status options of the app*/
 
   .status{
     display: flex;
-    
     color: #828FA3;
     font-size: 12px;
     letter-spacing: 2.4px;
@@ -105,7 +106,7 @@ h2{
     margin-top: 30px; 
   }
 
-   /* This is a comment */
+   /* This adds colour to the icons added to HTML */
 
   .circle-icon-1{
     color: #49C4E5;
@@ -125,6 +126,8 @@ h2{
     margin-top: 3px;
   }
 
+  /* A seperate class created for styling one of the h4 headings as its in the nagivation bar */
+
   .all-boards-heading{
     color: #828FA3;
     font-size: 12px;
@@ -132,7 +135,7 @@ h2{
     margin-left: 32px;
   }
 
-   /* This is a comment */
+   /* Styles the task columns by using flexbox to align each group */
 
   .task-column-section{
     display: flex;
@@ -142,7 +145,7 @@ h2{
     margin-left: 30px;
   }
 
-   /* This is a comment */
+   /* This styles each task card */
 
   .task-card{
     display: flex;
