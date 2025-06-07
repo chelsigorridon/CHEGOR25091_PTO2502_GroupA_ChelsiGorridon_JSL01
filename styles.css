@@ -58,11 +58,17 @@
     object-fit: cover;
     margin-top: 32.78px;
     margin-left: 34px;
+    position: fixed;       
+    left: 0;
+    top: 0;
   }
    
   /* This section styles the navigation bar*/
 
   .nav-bar{
+    position: fixed;       
+    left: 0;
+    top: 0;
     width: 300px;
     height: 1024px;
     background-color: var(--white); 
@@ -73,7 +79,7 @@
   .board-links{
     width: 276px;
     height: 880px;
-    margin-top: 60px;
+    margin-top: 112px;
   }
 
   /* This styles the launch career button*/
@@ -100,7 +106,7 @@
 
   /* === Headings, typography & styling === */
 
-   /* This styles the font of the title */
+   /* This styles the typography of the title */
 
 h2{
     color: var(--black);
@@ -118,7 +124,10 @@ h2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 12px;
+    margin-left: 300px;
+    position: fixed;       
+    left: 0;
+    top: 0;
   }
   
    /* This styles the status options of the app*/
@@ -127,9 +136,8 @@ h2{
     display: flex;
     color: var(--medium-grey);
     font-size: 12px;
-    letter-spacing: 2.4px;
-    margin-bottom: 30px;
-    margin-top: 30px; 
+    letter-spacing: 2.4px; 
+    margin-bottom: 20px;
   }
 
    /* This adds colour to the icons added to HTML */
@@ -159,6 +167,8 @@ h2{
     font-size: 12px;
     letter-spacing: 2.4px;
     margin-left: 32px;
+    line-height: 100%;
+    
   }
 
   /* === Flexbox & styling === */
@@ -170,7 +180,8 @@ h2{
     gap: 17px;
     width: 1192px;
     height: 853px;
-    margin-left: 30px;
+    margin-left: 324px;
+    margin-top: 121px;
   }
 
    /* This styles each task card */
@@ -179,13 +190,13 @@ h2{
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    margin-bottom: 15px;
     background-color: var(--white);
     width: 280px;
     height: 60px;
     border-radius: 8px;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(54, 78, 126, 0.1);
-    margin-bottom: 15px;
     padding: 8px 16px 8px 16px;
   }
 
@@ -193,8 +204,44 @@ h2{
 
    /* === Media Queries === */
 
-   @media screen (min-width: 375px) and (max-width: 667px) {
+   @media screen and (max-width: 667px) {
+    body{ 
+    background-color:var(--light-bg);
+    max-width: 375px;
+    height: 67px;
+    margin: auto;
+    font-family: 'Plus jakarta sans',sans-serif ;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .kanban-logo{
+    width: 112.77px;
+    height: 24.61px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 56px;
+    position: fixed;       
+    left: 0;
+    top: 0;
+  }
+
+   .nav-bar{
+    position: fixed;       
+    left: 0;
+    top: 0;
+    width: 375px;
+    height: 64px;
+    background-color: var(--white); 
+  }
+
+  .board-links{
     
+  }
+
+   
+
+
    }
 
   
