@@ -9,12 +9,12 @@
   </head>
 
   <body>
-
-    <img src="assets/logo-light.svg" alt="logo" class="logo-img">
+    <container>
    
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
-    <nav>
+    <nav class="nav-bar">
       <div>
+        <img src="assets/logo-light.svg" alt="logo" class="kanban-logo">
         <h4>ALL BOARDS (1)</h4>
         <button>Launch Career</button>
       </div>
@@ -22,14 +22,15 @@
 
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div>
-      <header>
+      <header class="heading">
         <div>
           <h2>Launch Career</h2>
         </div>
       </header>
+       
 
       <div>
-        <main>
+        <main class="main-section">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
             <div>
@@ -38,8 +39,8 @@
             </div>
             <!-- Tasks container for TODO -->
             <div>
-              <div class="card">Launch Epic Career 🚀</div>
-              <div class="card">Learn Data Structures and Algorithms 📚</div>
+              <div class="task-card">Launch Epic Career 🚀</div>
+              <div class="task-card">Learn Data Structures and Algorithms 📚</div>
             </div>
           </div>
           <!-- DOING Column -->
@@ -50,8 +51,8 @@
             </div>
             <!-- Tasks container for DOING -->
             <div>
-              <div class="card">Master JavaScript 💛</div>
-              <div class="card">Keep on Going 🏆</div>
+              <div class="task-card">Master JavaScript 💛</div>
+              <div class="task-card">Keep on Going 🏆</div>
             </div>
           </div>
           <!-- DONE Column -->
@@ -62,12 +63,13 @@
             </div>
             <!-- Tasks container for DONE -->
             <div>
-              <div class="card">Contribute to Open Source Projects 🌐</div>
-              <div class="card">Build Portfolio Projects 🛠️</div>
+              <div class="task-card">Contribute to Open Source Projects 🌐</div>
+              <div class="task-card">Build Portfolio Projects 🛠️</div>
             </div>
           </div>
         </main>
       </div>
     </div>
+    </container>
   </body>
 </html>
