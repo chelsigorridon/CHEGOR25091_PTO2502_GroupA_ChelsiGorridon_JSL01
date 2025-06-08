@@ -205,13 +205,19 @@ h2{
 
    /* === Media Queries === */
 
+   /* This makes the application responsive for mobile screens*/
+
    @media screen and (max-width: 667px) {
+
+   /* Changed the container from grid to flex box for mobile responsive column layout */
 
     .main-container{
     display: flex;
     flex-direction: column;
     gap: 10px;
    }
+
+   /* Changed the width and height of the task columns, body & Navigation bar to adjust to mobile mode*/
 
    .task-column-section{
     display: flex;
@@ -220,7 +226,6 @@ h2{
     height: 667px;
     margin-top: 96px;
     margin-left: 23px;
-    
   }
 
     body{ 
@@ -239,6 +244,7 @@ h2{
     background-color: var(--white); 
   }
 
+   /* Changed width & height on logo to fit in mobile mode*/
 
   .kanban-logo{
     width: 112.77px;
@@ -248,10 +254,13 @@ h2{
     margin-left: 16px;
   }
 
+    /*Collapsed and changed visabillity of the title and links*/
 
    .board-links, .board-title {
     visibility:collapse;
   }
+
+  /* Changed width & height of task cards to fit in mobile mode*/
 
   .task-card{
     display: flex;
@@ -264,13 +273,12 @@ h2{
     border-radius: 8px;
     font-size: 15px;
     box-shadow: 0 4px 6px rgba(54, 78, 126, 0.1);
-    padding: 8px 16px 8px 16px;
-    
+    padding: 8px 16px 8px 16px;  
   }
 
    }
 
-  
+  /* === End Media Queries === */
     
     
   
