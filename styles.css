@@ -94,6 +94,7 @@
     font-size: 15px;
     border: none;
     margin-top: 34px;
+    padding: 8px 16px 8px 16px;
     transition: background-color 0.2s , transform 0.2s ease-in-out;
   }
 
@@ -205,42 +206,67 @@ h2{
    /* === Media Queries === */
 
    @media screen and (max-width: 667px) {
+
+    .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+   .task-column-section{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 667px;
+    margin-top: 96px;
+    margin-left: 23px;
+    
+  }
+
     body{ 
     background-color:var(--light-bg);
     max-width: 375px;
     height: 67px;
-    margin: auto;
+    padding: 8px 16px 8px 16px;
     font-family: 'Plus jakarta sans',sans-serif ;
     font-weight: 700;
     cursor: pointer;
   }
 
-  .kanban-logo{
-    width: 112.77px;
-    height: 24.61px;
-    object-fit: cover;
-    margin-top: 20px;
-    margin-left: 56px;
-    position: fixed;       
-    left: 0;
-    top: 0;
-  }
-
-   .nav-bar{
-    position: fixed;       
-    left: 0;
-    top: 0;
+  .nav-bar{
     width: 375px;
     height: 64px;
     background-color: var(--white); 
   }
 
-  .board-links{
-    
+
+  .kanban-logo{
+    width: 112.77px;
+    height: 24.61px;
+    object-fit: cover;
+    margin-top: 21px;
+    margin-left: 16px;
   }
 
-   
 
+   .board-links, .board-title {
+    visibility:collapse;
+  }
+
+  .task-card{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: var(--white);
+    width: 320px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(54, 78, 126, 0.1);
+    padding: 8px 16px 8px 16px;
+    
+  }
 
    }
 
