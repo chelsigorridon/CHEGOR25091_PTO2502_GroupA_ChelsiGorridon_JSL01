@@ -4,7 +4,9 @@
 
 ## What is Kanban?:
 
-- It's an applications that makes keeping track of all your tasks or goals easier and interactive. 
+- It's an application that makes keeping track of all your tasks or goals fun, easy and interactive. 
+  The application is user friendly and captures attention with its playful yet bold colour scheme. 
+  You will never want to skip a task or goal with the help of Kanban. 
   
 
 
@@ -12,10 +14,10 @@
 
 ## Key Features:
 
-- Create diffrent boards and name each one with the main focus of your tasks/goals.
-- Track your tasks/goals.
-- Create your own title & description.
-- Change the status of your tasks/goals to track them better. 
+- Create different boards and name each one with the main focus of your tasks/goals.
+- Track your tasks or goals visually.
+- Add custom titles & descriptions.
+- Update the status of your tasks/goals to track your progress better.
 
 ---
 ## Technology and Coding Languages used:
@@ -30,10 +32,12 @@
 ---
 ## Working usage and interactive instructions:
 - Create a Board by naming it with your main focus 
-- Click on the board you've created 
-- An options screen will pop up 
-- Add a title, description and a status 
-- There will be a button saying create task click it and your task/goal will be added to main screen.
-- Move your tasks around according to where you're currently at
+- Click on the purple button in the right hand corner it says "Add new task" or on mobile mode it will have a plus sign.
+- An options screen will pop up with different fields that need to be filled in 
+- Add your own title, description and a status - Feel free to get creative!
+- There will be a button below the filled in fields saying "Create task" click it and your task/goal will be added to main board
+- On the main board each task will either fall under TODO, DOING or DONE 
+- Move your tasks around according to where you're currently at 
+- Have fun tracking your tasks/goals and never miss a thing!
 
 ---
